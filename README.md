@@ -1,1 +1,16 @@
-# doppia-mandata-telefono
+# Doppia Mandata per iPhone
+
+App web installabile, in sola lettura, per consultare dal telefono le password di Doppia Mandata.
+
+In questo repository ci sono **solo i file compilati** dell'app (HTML, JavaScript, CSS, icone). Nessuna password, nessuna chiave, nessun dato personale: i dati restano nel file di backup cifrato dell'utente e vengono decifrati sul telefono, con seconda chiave e password, senza passare da nessun server.
+
+Il codice sorgente è in un repository privato.
+
+## Installare su iPhone
+
+1. Apri l'indirizzo dell'app con **Safari**.
+2. Tocca il pulsante **Condividi**, poi **Aggiungi alla schermata Home**.
+3. Apri l'app dalla schermata Home, inserisci seconda chiave e password e tocca **Prendi da Google Drive** (oppure scegli a mano un file `.dmbak`).
+4. Da lì in poi, a ogni sblocco l'app prende da sola il backup cifrato più recente caricato dal computer su Google Drive.
+
+Accesso a Google Drive: solo l'ambito `drive.file`, cioè soltanto i file creati da Doppia Mandata. Il file scaricato è cifrato e viene aperto sul telefono.
