@@ -1,0 +1,1 @@
+var e=class extends Error{code;constructor(e,t){super(t),this.code=e}};async function t(t,...n){let r=await window.api.call(t,n[0]);if(!r.ok)throw new e(r.error.code,r.error.message);return r.value}function n(e){return window.api.on(e)}function r(e){return e instanceof Error?e.message:`Errore imprevisto.`}export{r as n,n as r,t};
