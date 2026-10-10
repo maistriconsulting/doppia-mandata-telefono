@@ -1,0 +1,71 @@
+{
+  "releases": [
+    {
+      "version": "0.2.32",
+      "target": "darwin",
+      "arch": "aarch64",
+      "formato": "app",
+      "fileName": "Doppia-Mandata-0.2.32-arm64-mac.zip",
+      "fileSize": 129759267,
+      "fileSha256": "dc50dc082c7c00b01a815c470fcbc4f6ddd0861514af9044790744e3a464a005",
+      "signature": "h9bVw8ezHKkCLKT4QwTSL9Adfyfj2arKVaztivjoL8PaAogIUjAytgyDkU/DUhhKbSS9eH5QzL9tLQ02y9EkCQ==",
+      "notes": "Controllo sicurezza aggiornato a ogni accesso e pulsante Controlla ora; password obbligatoria ogni 14 giorni (personalizzabile) per impronta, volto, Touch ID e Face ID; copia di tutte le cassaforti sul server di casa, aggiornata a ogni modifica.",
+      "createdAt": "2026-10-10T17:39:06.214Z",
+      "parts": [
+        {
+          "name": "Doppia-Mandata-0.2.32-arm64-mac.zip.parte0",
+          "size": 94371840,
+          "sha256": "bec251e49aa6c214bd13b10873cc9dc1fec7823707bb79a1a332e10f264d8118"
+        },
+        {
+          "name": "Doppia-Mandata-0.2.32-arm64-mac.zip.parte1",
+          "size": 35387427,
+          "sha256": "1471be358e46d35a690d5f0c15e759397cbe0c86d8e6819cf9d539f4ff075960"
+        }
+      ]
+    },
+    {
+      "version": "0.2.32",
+      "target": "darwin",
+      "arch": "x86_64",
+      "formato": "app",
+      "fileName": "Doppia-Mandata-0.2.32-mac.zip",
+      "fileSize": 135434043,
+      "fileSha256": "7360f9751366a5ebcafebf8957a8193128daf45cad8b5a75e9de1c05bae4ddaf",
+      "signature": "+fpX1BZNOlqAShbnvK1PounmTW125DCSOdx86Jo1nV5mEnpDEFnLsQZLEdI5rmVxGhJPjYtlSm4/GyWP3jxWAA==",
+      "notes": "Controllo sicurezza aggiornato a ogni accesso e pulsante Controlla ora; password obbligatoria ogni 14 giorni (personalizzabile) per impronta, volto, Touch ID e Face ID; copia di tutte le cassaforti sul server di casa, aggiornata a ogni modifica.",
+      "createdAt": "2026-10-10T17:39:07.031Z",
+      "parts": [
+        {
+          "name": "Doppia-Mandata-0.2.32-mac.zip.parte0",
+          "size": 94371840,
+          "sha256": "5239c89ad2bdb5a1e90b3a17a017d1780d111f1c8c22a386d7fb58232fbae06e"
+        },
+        {
+          "name": "Doppia-Mandata-0.2.32-mac.zip.parte1",
+          "size": 41062203,
+          "sha256": "1f8a5f7ab8dc7db5c984f24d086723cf45897fdb149b013cc62181047c07155c"
+        }
+      ]
+    },
+    {
+      "version": "0.2.32",
+      "target": "linux",
+      "arch": "x86_64",
+      "formato": "rpm",
+      "fileName": "doppia-mandata-0.2.32.x86_64.rpm",
+      "fileSize": 90075421,
+      "fileSha256": "d4ac58bd7ca96db22356a5f74a90110c0b584d665b3756c6bda1637e7d21c4e3",
+      "signature": "aytNHUA4ngiGHUcPZJjp7zu9N/tp8nJuzKUx1SnI4xnZPHCQEk+ElSohN4+1qFmbre+Gd4wEmB1fAZ0jVMJPAQ==",
+      "notes": "Controllo sicurezza aggiornato a ogni accesso e pulsante Controlla ora; password obbligatoria ogni 14 giorni (personalizzabile) per impronta, volto, Touch ID e Face ID; copia di tutte le cassaforti sul server di casa, aggiornata a ogni modifica.",
+      "createdAt": "2026-10-10T17:39:07.618Z",
+      "parts": [
+        {
+          "name": "doppia-mandata-0.2.32.x86_64.rpm.parte0",
+          "size": 90075421,
+          "sha256": "d4ac58bd7ca96db22356a5f74a90110c0b584d665b3756c6bda1637e7d21c4e3"
+        }
+      ]
+    }
+  ]
+}
